@@ -1,8 +1,0 @@
-{
-  "Type": "AmmoOnMiss",
-  "Effects": {
-    "WorldSoundEventId": "SFX_Arrow_FullCharge_Miss",
-    "LocalSoundEventId": "SFX_Arrow_FullCharge_Miss"
-  },
-  "RunTime": 5
-}
