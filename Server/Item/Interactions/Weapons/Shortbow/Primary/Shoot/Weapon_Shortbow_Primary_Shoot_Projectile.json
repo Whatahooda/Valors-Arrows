@@ -1,0 +1,16 @@
+{
+  "Type": "AmmoProjectile",
+  "Effects": {
+    "ItemAnimationId": "Shoot",
+    "ClearAnimationOnFinish": true
+  },
+  "RunTime": 0.2,
+  "Next": {
+    "Type": "ChangeStat",
+    "Behaviour": "Set",
+    "StatModifiers": {
+      "StaminaRegenDelay": 0
+    }
+  },
+  "Config": "Projectile_Config_Arrow_Shortbow"
+}

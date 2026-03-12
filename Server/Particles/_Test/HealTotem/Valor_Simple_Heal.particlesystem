@@ -1,0 +1,13 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Totem_Heal_Extra_Sparks",
+      "StartDelay": 0,
+      "PositionOffset": {
+        "Y": 0.2
+      }
+    }
+  ],
+  "CullDistance": 100,
+  "$Comment": "spawn of the effect"
+}

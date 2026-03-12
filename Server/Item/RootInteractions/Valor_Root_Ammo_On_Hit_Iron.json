@@ -1,0 +1,13 @@
+{
+  "Interactions": [
+    {
+      "Type": "DamageEntity",
+      "DamageCalculator": {
+        "Class": "Unknown",
+        "BaseDamage": {
+          "Projectile": 4
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "StatModifiers": {
+    "Health": 1
+  },
+  "OverlapBehavior": "Overwrite",
+  "Duration": 0.5,
+  "DamageCalculatorCooldown": 0.1,
+  "StatusEffectIcon": "UI/StatusEffects/Regen/Tiny.png",
+  "ApplicationEffects": {
+    "WorldSoundEventId": "SFX_Potion_Drink_Success",
+    "EntityBottomTint": "#53ff3f",
+    "EntityTopTint": "#53ff3f",
+    "Particles": [
+      {
+        "SystemId": "Valor_Simple_Heal",
+        "Color": "#53ff3f",
+        "TargetNodeName": "Chest"
+      }
+    ],
+    "FirstPersonParticles": [
+      {
+        "SystemId": "Valor_Simple_Heal",
+        "Color": "#53ff3f",
+        "TargetNodeName": "Chest"
+      }
+    ]
+  }
+}

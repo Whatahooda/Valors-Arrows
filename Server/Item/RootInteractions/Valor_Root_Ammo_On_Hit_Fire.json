@@ -1,0 +1,18 @@
+{
+  "Interactions": [
+    {
+      "Type": "DamageEntity",
+      "DamageCalculator": {
+        "Class": "Unknown",
+        "BaseDamage": {
+          "Projectile": 4
+        }
+      },
+      "Next": {
+        "Type": "ApplyEffect",
+        "EffectId": "Burn",
+        "Entity": "Target"
+      }
+    }
+  ]
+}

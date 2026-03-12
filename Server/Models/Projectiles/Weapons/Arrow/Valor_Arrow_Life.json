@@ -1,0 +1,30 @@
+{
+  "Parent": "Arrow_Crude",
+  "Particles": [
+    {
+      "PositionOffset": {
+        "X": 0.5,
+        "Y": 0,
+        "Z": 0
+      },
+      "SystemId": "GreenOrbTrail",
+      "TargetNodeName": "Handle",
+      "RotationOffset": {
+        "Yaw": 90,
+        "Pitch": 90,
+        "Roll": 90
+      },
+      "Color": "#53ff3f"
+    }
+  ],
+  "Light": {
+    "Radius": 1,
+    "Color": "#071"
+  },
+  "DefaultAttachments": [
+    {
+      "Model": "Items/Weapons/Arrow/Arrow.blockymodel",
+      "Texture": "Items/Weapons/Arrows/Valor_Arrow_Life.png"
+    }
+  ]
+}

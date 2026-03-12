@@ -1,0 +1,200 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Valor_Weapon_Arrow_Potion_Morph_Mouse.name",
+    "Description": "server.items.Valor_Weapon_Arrow_Potion_Morph_Mouse.description"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "ItemLevel": 20,
+  "PlayerAnimationsId": "Dagger",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -30,
+      -30
+    ]
+  },
+  "Model": "Items/Weapons/Arrows/Valor_Arrow_Potion.blockymodel",
+  "Texture": "Items/Weapons/Arrows/Valor_Arrow_Potion_White.png",
+  "Icon": "Icons/ItemsGenerated/Valor_Weapon_Arrow_Potion_Morph_Pigeon.png",
+  "Interactions": {
+    "Primary": "Knife_Attack",
+    "Secondary": "Knife_Block"
+  },
+  "InteractionVars": {
+    "Knife_Block_Damage": "Knife_Block_Damage",
+    "Knife_Swing_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Left_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 3
+            },
+            "RandomPercentageModifier": 0.1
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Swing_Right_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Right_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 3
+            },
+            "RandomPercentageModifier": 0.1
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Stab_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Stab_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Stab_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 3
+            },
+            "RandomPercentageModifier": 0.1
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Lunge_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Lunge_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Lunge_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Lunge_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 3
+            },
+            "RandomPercentageModifier": 0.1
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Throw_Charged_Projectile": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Throw_Charged_Projectile",
+          "ProjectileId": "Arrow_HalfCharge"
+        }
+      ]
+    },
+    "Ammo_Info": {
+      "Interactions": [
+        {
+          "Type": "AmmoInfo",
+          "ModelAssetId": "Valor_Arrow_Potion_White",
+          "AmmoOnHitId": "Valor_Root_Ammo_On_Hit_Morph_Mouse"
+        }
+      ]
+    }
+  },
+  "MaxStack": 5,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Arrow"
+    ]
+  },
+  "Weapon": {},
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Tree_Sap",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Potion_Morph_Mouse",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 1,
+    "TimeSeconds": 1,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Id": "Alchemybench",
+        "Type": "Crafting",
+        "Categories": [
+          "Alchemy_Potions_Misc"
+        ]
+      }
+    ],
+    "RequiredMemoriesLevel": 4
+  },
+  "Light": {
+    "Color": "#522",
+    "Radius": 1
+  },
+  "Quality": "Epic"
+}

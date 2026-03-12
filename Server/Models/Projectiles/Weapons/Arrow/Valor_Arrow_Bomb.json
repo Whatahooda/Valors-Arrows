@@ -1,0 +1,13 @@
+{
+  "Parent": "Arrow_Crude",
+  "Light": {
+    "Radius": 1,
+    "Color": "#530"
+  },
+  "DefaultAttachments": [
+    {
+      "Model": "Items/Weapons/Arrows/Valor_Arrow_Bomb.blockymodel",
+      "Texture": "Items/Weapons/Arrows/Valor_Arrow_Bomb.png"
+    }
+  ]
+}

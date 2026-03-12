@@ -1,0 +1,9 @@
+{
+  "Interactions": [
+    {
+      "Type": "ApplyEffect",
+      "Entity": "Target",
+      "EffectId": "Arrow_Potion_Morph_Pigeon"
+    }
+  ]
+}

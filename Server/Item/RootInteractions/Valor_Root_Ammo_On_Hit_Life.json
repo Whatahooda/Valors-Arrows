@@ -1,0 +1,9 @@
+{
+  "Interactions": [
+    {
+      "Type": "ApplyEffect",
+      "EffectId": "Arrow_Life_Health_Gain_Small",
+      "Entity": "Owner"
+    }
+  ]
+}

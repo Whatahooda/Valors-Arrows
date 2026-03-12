@@ -1,0 +1,20 @@
+{
+  "Group": "Valor",
+  "Name": "Valor's Arrows",
+  "Version": "0.1.0",
+  "Description": "Adds and Allows the use of different arrows",
+  "Authors": [
+    {
+      "Name": "Valor",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

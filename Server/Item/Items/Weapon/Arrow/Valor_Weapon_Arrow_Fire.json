@@ -1,0 +1,216 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Valor_Weapon_Arrow_Fire.name",
+    "Description": "server.items.Valor_Weapon_Arrow_Fire.description"
+  },
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "Quality": "Rare",
+  "ItemLevel": 20,
+  "PlayerAnimationsId": "Dagger",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      45,
+      90,
+      0
+    ],
+    "Translation": [
+      -25,
+      -25
+    ]
+  },
+  "Model": "Items/Weapons/Arrow/Arrow.blockymodel",
+  "Texture": "Items/Weapons/Arrows/Valor_Arrow_Fire.png",
+  "Icon": "Icons/ItemsGenerated/Weapon_Arrow_Fire.png",
+  "Interactions": {
+    "Primary": "Knife_Attack",
+    "Secondary": "Knife_Block"
+  },
+  "InteractionVars": {
+    "Knife_Block_Damage": "Knife_Block_Damage",
+    "Knife_Swing_Left_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Left_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Swing_Left_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Left_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 3
+            },
+            "RandomPercentageModifier": 0.1
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Swing_Right_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Right_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Swing_Right_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Swing_Right_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 3
+            },
+            "RandomPercentageModifier": 0.1
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Stab_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Stab_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Stab_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Arrow_Fire_Stab_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 3
+            },
+            "RandomPercentageModifier": 0.1
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Lunge_Effect": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Lunge_Effect",
+          "Effects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Swing"
+          }
+        }
+      ]
+    },
+    "Knife_Lunge_Damage": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Lunge_Damage",
+          "DamageCalculator": {
+            "BaseDamage": {
+              "Physical": 3
+            },
+            "RandomPercentageModifier": 0.1
+          },
+          "DamageEffects": {
+            "WorldSoundEventId": "SFX_Axe_Special_Impact"
+          }
+        }
+      ]
+    },
+    "Knife_Throw_Charged_Projectile": {
+      "Interactions": [
+        {
+          "Parent": "Knife_Throw_Charged_Projectile",
+          "ProjectileId": "Arrow_HalfCharge"
+        }
+      ]
+    },
+    "Ammo_Info": {
+      "Interactions": [
+        {
+          "Type": "AmmoInfo",
+          "ModelAssetId": "Valor_Arrow_Fire",
+          "AmmoOnHitId": "Valor_Root_Ammo_On_Hit_Fire"
+        }
+      ]
+    }
+  },
+  "MaxStack": 40,
+  "DroppedItemAnimation": "Items/Animations/Dropped/Dropped_Diagonal_Left.blockyanim",
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ],
+    "Family": [
+      "Arrow"
+    ]
+  },
+  "Weapon": {},
+  "ItemSoundSetId": "ISS_Weapons_Arrows",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Stick",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Red",
+        "Quantity": 4
+      },
+      {
+        "ItemId": "Ingredient_Fire_Essence",
+        "Quantity": 8
+      }
+    ],
+    "OutputQuantity": 4,
+    "TimeSeconds": 0.5,
+    "KnowledgeRequired": false,
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Categories": [
+          "Weapon_Bow"
+        ],
+        "Id": "Weapon_Bench",
+        "RequiredTierLevel": 2
+      }
+    ]
+  },
+  "Light": {
+    "Color": "#c84",
+    "Radius": 1
+  },
+  "Particles": [
+    {
+      "PositionOffset": {
+        "X": 0.6,
+        "Y": 0,
+        "Z": 0
+      },
+      "SystemId": "Torch_Fire",
+      "TargetNodeName": "Handle",
+      "RotationOffset": {
+        "Yaw": 90,
+        "Pitch": 90,
+        "Roll": 90
+      }
+    }
+  ]
+}

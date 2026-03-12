@@ -1,0 +1,23 @@
+{
+  "Group": "Valor",
+  "Name": "Valor's Arrows",
+  "Version": "0.2.2",
+  "ServerVersion": "2026.02.19-1a311a592",
+  "Description": "Adds and Allows the use of different arrows",
+  "Authors": [
+    {
+      "Name": "Valor",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {
+    "Valor:ValorsAmmoUtil":"*"
+  },
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
