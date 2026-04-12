@@ -1,7 +1,7 @@
 {
   "Group": "Valor",
-  "Name": "Valor's Arrows",
-  "Version": "0.1.0",
+  "Name": "Valors Arrows",
+  "Version": "0.2.2",
   "Description": "Adds and Allows the use of different arrows",
   "Authors": [
     {
@@ -11,7 +11,10 @@
     }
   ],
   "Website": "",
-  "Dependencies": {},
+  "ServerVersion": "2026.03.26-89796e57b",
+  "Dependencies": {
+    "Valor:ValorsAmmoUtil": ""
+  },
   "OptionalDependencies": {},
   "LoadBefore": {},
   "DisabledByDefault": false,

@@ -1,9 +1,8 @@
 {
   "Group": "Valor",
   "Name": "Valors Arrows",
-  "Version": "0.2.2",
-  "ServerVersion": "2026.02.19-1a311a592",
-  "Description": "Adds and Allows the use of different arrows",
+  "Version": "0.2.4",
+  "Description": "Adds more arrows to use in Adventure mode.\nThis mod requires VAU to be enabled.",
   "Authors": [
     {
       "Name": "Valor",
@@ -12,8 +11,9 @@
     }
   ],
   "Website": "",
+  "ServerVersion": "2026.03.26-89796e57b",
   "Dependencies": {
-    "Valor:ValorsAmmoUtil":"*"
+    "Valor:ValorsAmmoUtil": ""
   },
   "OptionalDependencies": {},
   "LoadBefore": {},
