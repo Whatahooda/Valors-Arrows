@@ -1,0 +1,18 @@
+{
+  "Type": "Condition",
+  "RequiredGameMode": "Adventure",
+  "Failed": {
+    "Type": "ChangeActiveSlot"
+  },
+  "Next": {
+    "Type": "Serial",
+    "Interactions": [
+      {
+        "Type": "AmmoUnload"
+      },
+      {
+        "Type": "ChangeActiveSlot"
+      }
+    ]
+  }
+}
